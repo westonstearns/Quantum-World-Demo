@@ -32,6 +32,7 @@ A dataset of movies, `movies`, is available in the workspace.
 *** =sample_code
 ```{python}
 from matplotlib import pyplot as plt
+import numpy
 
 #Wave parameters
 L = 10 #length of  (should we specify this?)
@@ -49,6 +50,7 @@ plt.title('First Harmonic at t = 0')
 *** =solution
 ```{python}
 from matplotlib import pyplot as plt
+import numpy
 
 #Wave parameters
 L = 10 #length of  (should we specify this?)
