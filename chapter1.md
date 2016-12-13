@@ -26,7 +26,13 @@ A dataset of movies, `movies`, is available in the workspace.
 
 *** =pre_exercise_code
 ```{python}
+def harmonic_time_independent(x,n,L):
+    amplitude = sin(n*pi*x / numpy.double(L))
+    return amplitude
 
+def harmonic_time_dependent(t,nu,n,L):
+    amplitude = cos(pi*nu*n*t / numpy.double(L))
+    return amplitude
 ```
 
 *** =sample_code
